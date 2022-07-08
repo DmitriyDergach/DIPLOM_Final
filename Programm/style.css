@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #globe {
+    cursor: move;
+  }
+
+  #canvas {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  #current {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+
+  .map {
+      display: none;
+  }
+
+  .weather-root {
+      position: absolute;
+      color: #fff;
+  }
